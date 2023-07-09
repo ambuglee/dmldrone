@@ -11,40 +11,25 @@ body {
   position: relative;
   
 }
-.bg-img {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.bg-img::before {
-  content: "";
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  background-image: url("img/home.jpg");
-  background-size: cover;
-  opacity: 0.6;
-}
 
 .about {
-  margin-top: 10% !important ;
-  margin-bottom: 10% !important ;
+  margin-top: 10px !important;
+  
+}
+
+.galleryHome {
+  margin-top: 5% !important ;
+
   padding: 2px;
 }
 .home {
   margin-top: 10% !important ;
   height: 80vh !important;
 }
-.gallery {
-  margin-top: 25px ;
-}
+
 
 div img{
-border: 2px solid #212529;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 html {

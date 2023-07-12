@@ -18,14 +18,21 @@ body {
 }
 
 .about {
-  margin-top: 10px !important;
-  margin-bottom: 10% !important;
+  margin-top: 15px !important;
+  margin-bottom: 5% !important;
   text-align: justify;
 }
 
 .galleryHome {
-  margin-top: 5% !important;
-  padding: 2px;
+  /* margin-top: 12% !important; */
+  /* column-gap: 40px;
+  padding: 2px; */
+  width: 100vw !important;
+  
+}
+
+.galleryBottom {
+margin-top: 10px !important;
 }
 
 .home {
@@ -43,19 +50,10 @@ html {
 }
 
 .video-container {
-  position: relative;
-  padding-bottom: 56.25%;
-  /* 16:9 */
-  height: 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.video-container iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 50%;
-  height: 50%;
-}
+
 
 .dml {
   color: rgb(100, 3, 3) !important;

@@ -3,114 +3,135 @@
 <head>
   <title>DML Drone</title>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+  <link rel="stylesheet" href="style.css" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-
-  <link rel="stylesheet" href="style.css" />
   <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" /> -->
   <!-- <script src="https://kit.fontawesome.com/7083b870b7.js" crossorigin="anonymous"></script> -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
   <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark nav">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="index.html"><b class="fs-2 dml">DML</b> Drone Photography</a>
-      <div class="text-end">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="gallery.html">Gallery</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
+  <div class="w3-top">
+    <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+      <a href="#home" class="w3-bar-item w3-button"><b>DML</b> Drone Photography</a>
+      <!-- Float links to the right. Hide them on small screens -->
+      <div class="w3-right w3-hide-small">
+        <a href="#about" class="w3-bar-item w3-button">About</a>
+        <a href="#gallery" class="w3-bar-item w3-button">Gallery</a>
+        <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- <div class="row">
+      <div class="col-12">
+        <img class="galleryHome" src="img/home4.jpg" style="width: 100%" />
+      </div>
+    </div> -->
+
+  <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+    <img class="w3-image" src="img/home4.jpg" alt="Architecture" width="1500" height="800">
+  </header>
+
+  <div class="w3-content w3-padding" style="max-width: 1564px">
+    <div class="w3-container w3-padding-32" id="about" style="text-align: justify;">
+      <h1 class="w3-border-bottom w3-border-light-grey w3-padding-16" style="text-shadow: 2px 2px rgb(176, 172, 172); ">
+        About
+      </h1>
+      <p>
+        With over 25 years of experience as a licensed and insured commercial
+        drone pilot, I possess extensive expertise in flying both fixed wing
+        and remote aircraft. Additionally, my background as a retired Peace
+        Officer adds an extra layer of professionalism and attention to detail
+        to my services.
+      </p>
+      <p>
+        At my Drone Photography service, I specialize in capturing stunning
+        aerial images and videos for commercial and real estate purposes, as
+        well as conducting thorough roof inspections. My focus is on
+        delivering exceptional quality while keeping my services highly
+        affordable. By choosing my service, you can expect top-notch visuals
+        that effectively showcase the properties you are marketing. Moreover,
+        for roof and solar panel inspections, I provide valuable insights into
+        potential issues, empowering you to make informed decisions regarding
+        necessary repairs or maintenance
+      </p>
+      <p>
+        If you would like to discover how my service can benefit you or
+        schedule an inspection, please don't hesitate to reach out to me
+        through my inquiry page. I am Dale M. Lee, the proud owner of this
+        enterprise, and I look forward to serving you.
+      </p>
+    </div>
+
+    <div class="w3-container w3-padding-32" id="gallery">
+
+      <h1 class="w3-border-bottom w3-border-light-grey w3-padding-16" style="text-shadow: 2px 2px rgb(176, 172, 172)">
+        Gallery</h1>
+    </div>
+
+    <div class="w3-row-padding">
+      <div class="col-6 ">
+        <div class="w3-display-container">
+
+          <img src="img/home6.jpg" alt="Beach" style="width:100%">
+        </div>
+      </div>
+      <div class="col-6 ">
+        <div class="w3-display-container">
+
+          <img src="img/home1.jpg" alt="Beach" style="width:100%">
         </div>
       </div>
     </div>
-  </nav>
+    <div class="w3-row-padding">
+      <div class="col-6 ">
+        <div class="w3-display-container">
 
-  <img class="galleryHome " src="img/home4.jpg" style="width: 100%" />
+          <img src="img/home5.jpg" alt="Beach" style="width:100%">
+        </div>
+      </div>
+      <div class="col-6 ">
+        <div class="w3-display-container">
 
-  <div class="container ">
-  <div class="row galleryBottom">
-    <div class="col">
-      <img src="img/home6.jpg" style="width: 100%" />
+          <img src="img/home2.jpg" alt="Beach" style="width:100%">
+        </div>
+      </div>
     </div>
-    <div class="col">
-      <img src="img/home5.jpg" style="width: 100%" />
+
+
+
+    <div class="w3-row-padding ">
+      <div class="col-12 ">
+        <div class="w3-display-container">
+
+          <iframe class="video " src="https://www.youtube.com/embed/PQxq49_UNOA">
+          </iframe>
+        </div>
+      </div>
     </div>
-    <div class="col">
-      <img src="img/home1.jpg" style="width: 100%" />
-    </div>
-    <div class="col">
-      <img src="img/home2.jpg" style="width: 100%" />
-    </div>
-  </div>
-</div>
-  <div class="container about">
-    <h1 style="text-shadow: 1px 1px rgb(176, 172, 172);">About</h1>
-    <p>
-      With over 25 years of experience as a licensed and insured
-      commercial drone pilot, I possess extensive expertise in flying both
-      fixed wing and remote aircraft. Additionally, my background as a
-      retired Peace Officer adds an extra layer of professionalism and
-      attention to detail to my services.
-    </p>
-    <p>
-      At my Drone Photography service, I specialize in capturing stunning
-      aerial images and videos for commercial and real estate purposes, as
-      well as conducting thorough roof inspections. My focus is on
-      delivering exceptional quality while keeping my services highly
-      affordable. By choosing my service, you can expect top-notch visuals
-      that effectively showcase the properties you are marketing.
-      Moreover, for roof and solar panel inspections, I provide valuable
-      insights into potential issues, empowering you to make informed
-      decisions regarding necessary repairs or maintenance
-    </p>
-    <p>
-      If you would like to discover how my service can benefit you or
-      schedule an inspection, please don't hesitate to reach out to me
-      through my inquiry page. I am Dale M. Lee, the proud owner of this
-      enterprise, and I look forward to serving you.
-    </p>
+      
 
-  </div>
-
-  </div>
-
-
-
-
-  <nav class="navbar navbar-dark bg-dark footer">
-    <div class="container justify-content-center mb-3">
+    <footer class="w3-center w3-padding-16" style="background-color: rgba(255, 255, 255, 0.862)">
       <a href="#" class="fa fa-facebook"></a>
       <a href="#" class="fa fa-linkedin"></a>
       <a href="#" class="fa fa-youtube"></a>
       <a href="#" class="fa fa-instagram"></a>
-    </div>
-  </nav>
+    </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
-  </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -203,3 +203,7 @@ div img {
 .fa-instagram {
   color: black;
 }
+
+ul.a {
+  list-style-type: circle;
+}

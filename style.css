@@ -181,6 +181,10 @@ div img {
   background-color: rgba(229, 228, 228, 0.863) !important;
 }
 
+.fa-map-marker {
+  color: red !important;
+}
+
 .fa {
   
   font-size: 30px !important;

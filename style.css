@@ -185,6 +185,12 @@ div img {
   color: red !important;
 }
 
+.floatImg {
+  float: left;
+  
+  
+}
+
 .fa {
   
   font-size: 30px !important;

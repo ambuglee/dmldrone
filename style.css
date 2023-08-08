@@ -186,7 +186,7 @@ div img {
 }
 
 .floatImg {
-  float: left;
+  float: left !important ;
   
   
 }

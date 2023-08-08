@@ -61,6 +61,12 @@ body {
     width: 100%;
   }
 }
+
+@media (max-width: 600px){
+.videSmall {
+    height: 50%!important;
+}
+}
 .nav {
   opacity: 0.85;
 }
@@ -181,6 +187,7 @@ div img {
 
 .floatImg {
   float: left !important ;
+  margin-left: 20px;
   
   
 }

@@ -61,12 +61,6 @@ body {
     width: 100%;
   }
 }
-/* 
-.background {
-  background-color: rgba(255, 255, 255, 0.858);
-  z-index: -1;
-} */
-
 .nav {
   opacity: 0.85;
 }

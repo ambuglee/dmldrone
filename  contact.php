@@ -20,5 +20,5 @@ if($email != NULL) {
 };
 
 // Redirect to
-header("Location: index.php?mailsend");
+header("Location: index.html");
 ?>

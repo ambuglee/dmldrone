@@ -1,27 +1,24 @@
 <?php
+// Get data from form
 $name = $_POST['name'];
-$visitor_email = $_POST['email'];
-$subject = $_POST['subject'];
-$message = $_POST['message'];
-
-$email_from = 'lee.amber.alex@gmail.com';
-$email_subject = "New Inquiry";
-
-$email_body = "Name: $name.\n".
-                "Email: $visitor_email.\n".
-                    "Subject: $subject.\n".
-                        "Message: $message.\n";
+$email= $_POST['email'];
+$message= $_POST['message'];
+$subject= $_POST['subject'];
 
 $to = "lee.amber.alex@gmail.com";
 
-$headers = "From: $email_from \r\n";
+// The following text will be sent
+// Name = user entered name
+// Email = user entered email
+// Message = user entered message
+$txt = "You have received an inquiry from ".$name.".\n\n".$message;
 
-$headers .= "Reply-To: $visitor_email \r\n";
+$headers = "From: ".$email;
+			
+if($email != NULL) {
+	mail($to, $subject, $txt, $headers);
+};
 
-mail($to, $email_subject, $email_body, $headers);
-
-header("Location: index.html");
-
-
-
+// Redirect to
+header("Location:last.html");
 ?>

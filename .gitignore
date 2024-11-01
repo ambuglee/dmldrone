@@ -1,0 +1,2 @@
+#add exact file names to be ignored and not added to github
+.DS_Store
